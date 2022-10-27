@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========================================================= */
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+button {
+    width: 180px;
+    padding: 0.5em 1.2em;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.2em;
+    color: #FFF;
+    border-style: none;
+    word-spacing: 5px;
+}
+
+button, p {
+    font-family: 'Roboto Mono';
+}
+
+.plan {
+    background-color: #FF764C;
+}
+
+.learn {
+    background-color: #5DD4EC;
+}
+
+.get-involved {
+    background-color: #FFCD6A;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 4% auto;
+}
+
+div.header-img {
+    background: url('assets/header_img.jpg');
+    background-size: contain;
+    border: 1px solid red;
+    min-width: 500px;
+    max-height: 500px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Chelsea Market';
+}
+
+.hero-text p {
+    font-size: 1.6em;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    margin: 1.3em auto;
+}
+
+article {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #DDB9A3;
+    font-size: 1.3em;
+    padding: 1% 2%;
+}
+
+.about p {
+    text-align: center;
+}
+
+.details {
+    width: 20%;
+    margin: 3% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details img {
+    width:70%;
+    height:70%;
+}
+
+img[src*="camper"] {
+    margin-top: 10%;
+}
+
+footer div{
+    border: 1px solid green;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    height: 100%;
+    background-color: #F9E7DB;
+    padding-bottom: 1%;
+}
